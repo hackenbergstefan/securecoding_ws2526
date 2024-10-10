@@ -1,4 +1,4 @@
-# Sichere Implementierungen auf Microcontrollern (WS 2023/2024)
+# Sichere Implementierungen auf Microcontrollern (WS 2024/2025)
 
 ## Installation and Setup
 
@@ -46,17 +46,17 @@
 ### Installation of required Python packages
 
 1. Clone this repository somewhere
-   (In the following we will assume that the location is `~/work/ws2324/securecoding_ws2324`):
+   (In the following we will assume that the location is `~/work/ws2425/securecoding_ws2425`):
 
    ```sh
-   cd ~/work/ws2324
-   git clone https://github.com/hackenbergstefan/securecoding_ws2324.git
+   cd ~/work/ws2425
+   git clone https://github.com/hackenbergstefan/securecoding_ws2425.git
    ```
 
 2. Create virtual environment and activate it:
 
    ```sh
-   cd ~/work/ws2324/securecoding_ws2324
+   cd ~/work/ws2425/securecoding_ws2425
    python -m venv .venv
    # On Unix like:
    . .venv/bin/activate
@@ -77,7 +77,7 @@ Create a file `.env` inside the repository with the following content:
 Windows:
 
 ```env
-# C:\work\ws2324\securecoding_ws2324\.env
+# C:\work\ws2425\securecoding_ws2425\.env
 PATH=C:\cw\cw\usr\bin;C:\cw\cw\home\portable\armgcc\bin;C:\cw\cw\home\portable\avrgcc\bin;$env["PATH"]
 CWFIRMWAREPATH=C:\cw\cw\home\portable\chipwhisperer\hardware\victims\firmware
 ```
@@ -85,7 +85,7 @@ CWFIRMWAREPATH=C:\cw\cw\home\portable\chipwhisperer\hardware\victims\firmware
 Unix like (Assume your username is `stefan`):
 
 ```env
-# /home/stefan/work/ws2324/securecoding_ws2324/.env
+# /home/stefan/work/ws2425/securecoding_ws2425/.env
 CWFIRMWAREPATH=/home/stefan/work/chipwhisperer/hardware/victims/firmware
 ```
 
