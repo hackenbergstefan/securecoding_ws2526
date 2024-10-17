@@ -4,3 +4,9 @@ ipykernel
 jupyter
 plotly
 ruff
+lascar
+numba
+h5py
+scikit-learn
+matplotlib
+progressbar2
