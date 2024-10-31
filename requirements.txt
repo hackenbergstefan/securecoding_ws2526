@@ -1,4 +1,4 @@
-git+https://github.com/hackenbergstefan/cwtoolbox.git@v0.5.0#egg=cwtoolbox
+git+https://github.com/hackenbergstefan/cwtoolbox.git@v0.10.4#egg=cwtoolbox
 git+https://github.com/Ledger-Donjon/lascar#egg=lascar
 ipykernel
 jupyter

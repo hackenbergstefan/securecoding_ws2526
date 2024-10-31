@@ -18,7 +18,7 @@ chipwhisperer==5.7.0
 comm==0.2.2
 configobj==5.0.9
 contourpy==1.3.0
-cwtoolbox @ git+https://github.com/hackenbergstefan/cwtoolbox.git@0c670e2417c4013f27afccf63c99fb1e98c8d209
+cwtoolbox @ git+https://github.com/hackenbergstefan/cwtoolbox.git@7f9d254d1ddd82bf072958a0ba707d00c1c675a6
 cycler==0.12.1
 Cython==3.0.11
 debugpy==1.8.7
@@ -74,7 +74,7 @@ nest-asyncio==1.6.0
 notebook==7.2.2
 notebook_shim==0.2.4
 numba==0.60.0
-numpy==1.26.4
+numpy==2.0.2
 overrides==7.7.0
 packaging==24.1
 pandocfilters==1.5.1
