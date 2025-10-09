@@ -1,12 +1,17 @@
-git+https://github.com/hackenbergstefan/cwtoolbox.git@v0.10.6#egg=cwtoolbox
-git+https://github.com/Ledger-Donjon/lascar#egg=lascar
+git+https://github.com/hackenbergstefan/cwtoolbox.git@v0.10.8#egg=cwtoolbox
 ipykernel
 jupyter
 plotly
 ruff
-lascar
 numba
 h5py
 scikit-learn
 matplotlib
 progressbar2
+
+# Chipwhisperer dependencies
+configobj
+cython
+ecpy
+libusb1
+pyserial
