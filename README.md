@@ -37,7 +37,7 @@
 3. Adjust udev rules and allow user to access serial interfaces:
 
    ```sh
-   sudo cp ~/work/chipwhisperer/hardware/50-newae.rules /etc/udev/rules.d/50-newae.rules
+   sudo cp ~/work/chipwhisperer/50-newae.rules /etc/udev/rules.d/50-newae.rules
    sudo udevadm control --reload-rules
    sudo usermod -aG dialout $USER
    sudo usermod -aG plugdev $USER
@@ -80,14 +80,14 @@ Windows:
 ```env
 # C:\work\ws2526\securecoding_ws2526\.env
 PATH=C:\cw\cw\usr\bin;C:\cw\cw\home\portable\armgcc\bin;C:\cw\cw\home\portable\avrgcc\bin;$env["PATH"]
-CWFIRMWAREPATH=C:\cw\cw\home\portable\chipwhisperer\hardware\victims\firmware
+CWFIRMWAREPATH=C:\cw\cw\home\portable\chipwhisperer\firmware\mcu
 ```
 
 Unix like (Assume your username is `stefan`):
 
 ```env
 # /home/stefan/work/ws2526/securecoding_ws2526/.env
-CWFIRMWAREPATH=/home/stefan/work/chipwhisperer/hardware/victims/firmware
+CWFIRMWAREPATH=/home/stefan/work/chipwhisperer/firmware/mcu
 ```
 
 Reload VSCode (`Ctrl+Shift+P -> "Developer: Reload Window"`)

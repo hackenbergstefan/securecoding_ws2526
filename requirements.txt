@@ -8,6 +8,7 @@ h5py
 scikit-learn
 matplotlib
 progressbar2
+tqdm
 
 # Chipwhisperer dependencies
 configobj
