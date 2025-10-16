@@ -41,6 +41,7 @@
    sudo udevadm control --reload-rules
    sudo usermod -aG dialout $USER
    sudo usermod -aG plugdev $USER
+   sudo usermod -aG chipwhisperer $USER
    ```
 
 ### Installation of required Python packages
